@@ -33,3 +33,8 @@ import {store} from "./store"
     </Provider>
 ```
 ***Provider*** tüm komponentlerin üstünde olmalıdır.
+
+3. Bir ***slice*** oluşturuyoruz. Örneğimizde **counterSlice.jsx** dosyasını oluşturuyoruz.
+    * Bu dosya içinde `createSlice` fonksiyonunu import ediyoruz. 
+    `import { createSlice } from "@reduxjs/toolkit";` 
+    *
