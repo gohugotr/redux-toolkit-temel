@@ -1,14 +1,18 @@
 {
   "name": "redux-toolkit-temel",
   "private": true,
+  "homepage": "https://github.com/gohugotr/redux-toolkit-temel/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^8.0.2"
