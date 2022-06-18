@@ -31,7 +31,7 @@ export default function App() {
       <p style={{ marginLeft: '50px' }}>{counter}</p>
       <p>Girilen Sayı kadar arttır:</p>
       <input type='number' onChange={onChangeHandler} value={sayi} />
-      <p></p>
+      <br/>
       <button onClick={handleArttir}>+ Arttır</button>
       <button onClick={handleAzalt}>- Azalt</button>
       <button onClick={handleArttirSenBelirle}>+ {sayi} Arttır</button>
