@@ -36,5 +36,11 @@ import {store} from "./store"
 
 3. Bir ***slice*** oluşturuyoruz. Örneğimizde **counterSlice.jsx** dosyasını oluşturuyoruz.
     * Bu dosya içinde `createSlice` fonksiyonunu import ediyoruz. 
-    `import { createSlice } from "@reduxjs/toolkit";` 
-    *
+    `import { createSlice } from "@reduxjs/toolkit";`
+    * Başlangıç `state` tini oluşturmamız gerekiyor.
+
+    ```js script
+    const initialState = {
+        value: 0,
+    }
+    ```
