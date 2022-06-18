@@ -3,4 +3,3 @@
 ## Kurulum
 
 `yarn add @reduxjs/toolkit react-redux`
-
