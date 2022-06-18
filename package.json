@@ -1,7 +1,7 @@
 {
   "name": "redux-toolkit-temel",
   "private": true,
-  "homepage": "https://github.com/gohugotr/redux-toolkit-temel/",
+  "homepage": "https://gohugotr.github.io/redux-toolkit-temel/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
